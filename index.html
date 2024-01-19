@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Krissy Flag Project</title>
+  <style>
+    /* Write your CSS Code here */
+ 
+.red {
+    background-color: #d21034;
+    width:720px ;
+    height: 480px;
+    position: relative;
+}
+
+.green {
+    background-color: #007e3a;
+    width: 480px;
+    height: 240px;
+    position: absolute ;
+    margin-left: 120px;
+    top:120px ;
+}
+
+.crescent {
+    background-color: #007e3a;
+    height: 160px;
+    width: 160px;
+    box-shadow: -30px 0px 0 1px white;
+    border-radius: 80%; 
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    top: 40px;
+    margin-left: 220px;
+}
+
+@media (max-width:1200px) {
+  div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin: auto;
+  }
+}
+
+  </style>
+</head>
+
+<!-- 
+  IMPORTANT! Do not change any HTML
+Don't add any classes/ids/elements 
+Use what you know about combining selectors 
+and CSS specificity instead.
+Hint 1: The flag is 720px by 480px and the crescent 390px by 240 radius 80% .
+Hint 2: You can use CSS inspection to get the colors from
+http://lascarid.es/fussyflags/svg/maldives.svg
+-->
+
+<body>
+  <div class="red">
+    <div class = "green">
+      <div class = "crescent"></div>
+  </div>
+</body>
+
+</html>
+
+
